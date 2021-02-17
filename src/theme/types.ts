@@ -53,7 +53,7 @@ export type Colors = {
 
   // Gradients
   gradients: Gradients;
-  
+
   // Brand colors
   binance: string;
 };

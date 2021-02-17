@@ -28,7 +28,6 @@ const Container = styled.div`
   position: relative;
 `;
 
-
 const FloatingKiwiIcon = styled(KiwiIcon)`
   animation: ${float} 2s ease-in-out infinite;
   transform: translate3d(0, 0, 0);
