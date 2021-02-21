@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { KiwiRoundIcon, CogIcon, SvgProps } from "../../components/Svg";
 import Text from "../../components/Text/Text";
+import CrText from "../../components/Text/CrText";
 import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Link from "../../components/Link/Link";
@@ -167,6 +168,8 @@ const PanelFooter: React.FC<Props> = ({
           ))}
         </Dropdown>
       </SettingsEntry>
+      <CrText color="text">Copyright - 2021 | © Ǒmega Protocol Ltd., UK</CrText>
+      <CrText color="text">Reg No: 12855720 | License: GNU-AGPL v3.0 </CrText>
     </Container>
   );
 };
